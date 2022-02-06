@@ -1,0 +1,26 @@
+{
+  "name": "nodelocalsyncgoogledrivefiles",
+  "version": "1.0.0",
+  "description": "A simple repository that is downloaded on your local machine and use to watch ny folder(s) and syncing it with a google cloud folder.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "shavon_golbourne",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "express": "^4.17.2",
+    "googleapis": "^94.0.0",
+    "nodemon": "^2.0.15",
+    "save": "^2.4.0"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js",
+    "assets": "downloads/**/*",
+    "targets": [
+      "node14-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}

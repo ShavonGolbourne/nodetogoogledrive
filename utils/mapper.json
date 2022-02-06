@@ -1,0 +1,4 @@
+{
+  ".csv": "text/csv",
+  ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+}
