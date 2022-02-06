@@ -1,26 +1,43 @@
 {
-  "name": "nodelocalsyncgoogledrivefiles",
+  "name": "nodegoogledrivelocalsync",
   "version": "1.0.0",
-  "description": "A simple repository that is downloaded on your local machine and use to watch ny folder(s) and syncing it with a google cloud folder.",
+  "description": "A simple node pkg that syncs files on your local machine with your google drive. Just create a config file that has the cloud parent(s) as well as a <code>cred.json</code> file. Require the nodesync pkg in your project and provide an array of folders to watch. That's it. Contribute to make it more interesting.  (><) (><)",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "author": "shavon_golbourne",
-  "license": "ISC",
   "dependencies": {
     "chokidar": "^3.5.3",
-    "express": "^4.17.2",
     "googleapis": "^94.0.0",
-    "nodemon": "^2.0.15",
-    "save": "^2.4.0"
+    "nodemon": "^2.0.15"
   },
-  "pkg": {
-    "scripts": "build/**/*.js",
-    "assets": "downloads/**/*",
-    "targets": [
-      "node14-win-x64"
-    ],
-    "outputPath": "dist"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShavonGolbourne/nodeSync.git"
+  },
+  "keywords": [
+    "google",
+    "googleapis",
+    "drive",
+    "jamaica",
+    "chokidar",
+    "nodemon",
+    "javascript",
+    "shavon",
+    "Tau",
+    "npm",
+    "github",
+    "resumable_upload",
+    "driveapi",
+    "multipart",
+    "upload"
+  ],
+  
+  "author": "Shavon Golbourne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShavonGolbourne/nodeSync/issues"
+  },
+  "homepage": "https://github.com/ShavonGolbourne/nodeSync#readme"
 }
