@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShavonGolbourne/nodeSync.git"
+    "url": "git+https://github.com/ShavonGolbourne/nodetogoogledrive.git"
   },
   "keywords": [
     "google",
@@ -37,7 +37,7 @@
   "author": "Shavon Golbourne",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShavonGolbourne/nodeSync/issues"
+    "url": "https://github.com/ShavonGolbourne/nodetogoogledrive/issues"
   },
-  "homepage": "https://github.com/ShavonGolbourne/nodeSync#readme"
+  "homepage": "https://github.com/ShavonGolbourne/nodetogoogledrive#readme"
 }
